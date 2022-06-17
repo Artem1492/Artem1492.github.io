@@ -1,0 +1,282 @@
+@media (max-width: 1200px)
+    nav
+        .menu
+            &-item
+                
+                padding-right: 17px
+            &-link
+                font-size: 13px
+
+    .subheader
+        .btn
+            margin-top: 18px
+            max-width: 100%
+    .promo
+        h1.promo-title 
+            font-size: 55px
+    .advantages
+        &-block
+            align-items: flex-start
+        .eight-reason
+            .text-block
+
+                width: 290px
+
+@media (max-width: 991px)
+    nav
+
+        .menu
+            &-item
+                padding-right: 10px
+            &-link
+                font-size: 10px
+    .subheader   
+        .offical
+            font-size: 12px
+        .number
+            font-size: 20px
+    .promo
+        h1.promo-title 
+            font-size: 41px
+        .promo-subtitle
+            font-size: 33px
+    .advantages
+        .eight-reason
+            .text-block
+                display: flex
+                flex-direction: column
+                margin-top: 15px
+                width: 375px
+        &-block
+            display: flex
+            flex-direction: column
+            align-items: center          
+            margin: 10px auto
+        .radius
+            margin: 1px auto
+    .uberx
+        &-duo
+            // padding-bottom: 80px
+        .car
+            @include align
+            img
+                max-width: 720px
+    footer
+        .social
+            display: flex
+            flex-direction: column
+            
+            @include align-y
+        .shops
+            display: flex
+            flex-direction: column
+            
+            @include align-y
+
+
+@media (max-width: 767px)     
+    nav
+        position: fixed
+        .menu
+            padding: 0
+            position: fixed
+            top: 0
+            left: -100%
+            background-color: rgba(0,0,0,.8)
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            width: 50%
+            height: 100vh
+            padding: 20px 15px
+            transition: 0.5s all
+            &-active
+                left: 0
+            &-item
+                margin-top: 10px
+            
+                border: none
+                text-align: center
+                
+            &-link
+                font-size: 20px
+
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        @include align-y
+        width: 28px
+        height: 12px
+        span
+            display: block
+            margin-bottom: 2px
+            background-color: #fff
+            height: 2px
+            width: 100%
+            transition: 0.5s all
+        
+        &-active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    
+    .xs-hiden
+        display: none
+
+    .xs-visible
+        display: block
+    .subheader
+
+        .btn
+            display: block
+            margin-top: 6px
+            width: 116px
+            height: 28px
+            font-size: 10px
+            line-height: 12px
+            font-weight: 400
+            margin: 6px auto 0
+        .number
+            font-size: 14px
+            margin: 11px 0 0
+            text-align: center
+    .promo
+        h1.promo-title 
+            font-size: 37px
+        .promo-subtitle
+            font-size: 23px
+    .opportuities
+
+    .box
+        margin: 15px auto
+
+    .uberx
+        &-duo
+            padding: 117px 80px
+        .car
+            @include align
+            top: 282px
+            img
+                width: 490px
+    footer
+        padding-bottom: 110px
+        .social
+            flex-direction: row
+            top: 179px
+            @include align
+        .shops
+            flex-direction: row
+            top: 223px
+            @include align
+            img
+                margin-right: 8px
+
+@media (max-width: 575px)  
+    nav
+        height: 30px
+        padding: 10px
+
+    .hamburger
+        width: 20px
+        height: 9px
+        right: 10px
+    .subheader
+        height: 60px
+        padding-left: 15px
+        top: 30px
+        .offical
+            display: none
+        img
+            width: 130px
+            margin: 22px 0 0
+        .number
+            font-size: 12px
+            line-height: 8px
+            font-weight: 400
+            margin-top: 11px
+        .btn
+            margin-top: 6px
+    .promo
+        height: 400px
+        padding: 113px 0 32px
+        h1.promo-title
+            font-size: 30px
+            line-height: 1.2
+        &-subtitle
+            font-size: 20px
+        &-text,
+            display: none
+        .btn
+            width: 216px
+            height: 56px
+            margin-top: 69px
+    .title
+        font-size: 16px
+    
+    .opportunities
+        
+        min-height: 1884px
+        padding-bottom: 43px
+    .uberx
+        height: 390px
+        padding: 25px 0 33px
+        .title-white
+            .title, .sub-title
+                display: none
+        .car
+            top: 94px
+            
+            @include align
+            img
+                width: 300px
+                height: 190px
+
+                
+                
+        &-duo
+            display: none
+    .text-visible
+        display: block
+        margin-top: 248px
+        text-align: center
+        color: #fff
+
+
+            
+
+    footer
+        .social
+
+            top: 219px
+
+        .shops
+            top: 259px
+            left: 50%
+            transform: translateX(-80%)
+
+            img 
+                margin-right: 5px
+                &:last-child
+                    margin-right: 0
+            
+
+
+
+
+
+                
+                
+            
+
+                
+                
+        
+    
+            
